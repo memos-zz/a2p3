@@ -24,6 +24,7 @@ public class A2P3 extends Applet implements AdjustmentListener {
 
     public void paint(Graphics g) {
         g.fillOval(10, 10, scrb.getValue(), scrb.getValue());
+        System.out.println("Memos");
     }
 
     public void adjustmentValueChanged(AdjustmentEvent e) {
